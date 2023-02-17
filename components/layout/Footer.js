@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import logo2 from '../../public/images/whitebearlogo.png';
+import logo2 from '../../public/Images/whitebearlogo.png';
 import { navLinks } from '../../data/navigation';
 import Link from 'next/link';
 import ButtonLink from '../utils/ButtonLink';
