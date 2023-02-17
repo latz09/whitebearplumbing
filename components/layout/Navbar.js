@@ -52,7 +52,7 @@ const Navigation = () => {
 			</div>
 
 			{/* large and up */}
-			<div className='hidden lg:flex justify-between w-full pb-4'>
+			<div className='hidden lg:flex justify-between w-full pb-4 mx-2'>
 				{navLinks.map((link, index) => (
 					<Link href={link.path} key={index}>
 						<span className={`${link.name === 'Contact us' ? 'text-red font-extrabold scale-110 hover:text-light ' : 'text-white'}' text-xl font-semibold tracking-wide text-light uppercase hover:font-bold hover:scale-105 hover:text-red transition duration-700 cursor-pointer cursor-pointer'`}>
