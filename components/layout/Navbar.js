@@ -46,7 +46,7 @@ const Navigation = () => {
 				<span>
 					<ButtonLink title='Request a quote' path='/' />
 				</span>
-				<span className='text-4xl'>
+				<span className='text-4xl text-blue'>
 					<GiHamburgerMenu />
 				</span>
 			</div>
