@@ -61,7 +61,7 @@ export default Hero;
 const HeroText = () => {
 	return (
 		<div className=' text-xl text-light lg:text-2xl grid gap-2 lg:gap-2  mx-auto rounded text-center lg:text-start  tracking-wide '>
-			<span className='text-5xl font-bold tracking-wider  text-red  font-tinos scale-y-125'>
+			<span className='text-5xl font-bold tracking-wider  text-red  font-tinos scale-110 lg:scale-y-125'>
 				White Bear Plumbing
 			</span>
 			<motion.div
