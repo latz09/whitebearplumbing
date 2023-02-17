@@ -16,7 +16,7 @@ const Hero = () => {
 				objectPosition='center'
 			/>
 
-			<div className='relative h-full bg-gradient-to-b from-dark/90 lg:from-dark/60 via-dark/60 to-dark/70 lg:to-dark'>
+			<div className='relative h-full bg-gradient-to-b from-dark/30 lg:from-dark/50 via-dark/40 lg:via-dark/70 to-dark lg:to-dark'>
 				<div className='max-w-7xl mx-auto  flex flex-col justify-between lg:grid place-items-center lg:grid-cols-3 h-full   lg:gap-16'>
 					<motion.div
 						className='lg:col-span-1 order-2 lg:order-1'
@@ -34,7 +34,7 @@ const Hero = () => {
 							initial={{ x: -400, scale: 0.9 }}
 							animate={{ x: 0, scale: 1 }}
 							transition={{ duration: 1, delay: 0.2 }}
-							className='w-3/5 mx-auto lg:w-full'
+							className='hidden lg:block'
 						>
 							<Image
 								src={companyVan}
@@ -44,7 +44,7 @@ const Hero = () => {
 							/>
 						</motion.div>
 					</motion.div>
-					<div className='lg:col-span-2  flex flex-col gap-4 pt-8 lg:grid place-items-start   lg:gap-8 order-1 lg:order-2  '>
+					<div className='lg:col-span-2  flex flex-col gap-4 pt-8 lg:grid place-items-start   lg:gap-8 order-2 pb-8 lg:pb-0  '>
 						<HeroText />
 						<div className="hidden lg:block">
 							<ButtonLink title='Request a quote' path='/' />
