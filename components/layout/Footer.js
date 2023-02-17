@@ -5,7 +5,7 @@ import Link from 'next/link';
 import ButtonLink from '../utils/ButtonLink';
 const Footer = () => {
 	return (
-		<div className='py-12 bg-gray-200 border-t border-blue/10'>
+		<div className='py-12 lg:py-24  bg-dark text-blue'>
 			<div className='max-w-7xl mx-auto grid gap-8 xl:gap-0 xl:grid-cols-2'>
 				<div className='grid  w-1/2  mx-auto'>
 					<Image src={logo2} alt='' />
